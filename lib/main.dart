@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:toonflix/services/api.service.dart';
 import 'screens/home_screen2.dart';
 
 void main() {
-  ApiService().getTodaysToons();
   runApp(const App());
 }
 
@@ -12,7 +10,7 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: HomeScreen(),
     );
   }
