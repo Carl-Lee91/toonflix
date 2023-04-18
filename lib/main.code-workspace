@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../Users/ADMIN/Desktop/kokoa-clone"
+	},
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "kokoa-clone"
+  }
+}
